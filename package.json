@@ -1,5 +1,5 @@
 {
-  "name": "hw2-bower-endpoint-parser",
+  "name": "hw2core-endpoint-parser",
   "version": "0.2.2",
   "description": "Little module that helps with endpoints parsing.",
   "licenses": [
@@ -23,5 +23,9 @@
   },
   "scripts": {
     "test": "mocha -R spec"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/bower/endpoint-parser/issues"
+  },
+  "homepage": "https://github.com/hw2-core/endpoint-parser"
 }

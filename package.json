@@ -1,8 +1,7 @@
 {
-  "name": "bower-endpoint-parser",
+  "name": "hw2-bower-endpoint-parser",
   "version": "0.2.2",
   "description": "Little module that helps with endpoints parsing.",
-  "author": "Twitter",
   "licenses": [
     {
       "type": "MIT",
@@ -11,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bower/endpoint-parser.git"
+    "url": "git://github.com/hw2-core/endpoint-parser.git"
   },
   "main": "index.js",
   "engines": {

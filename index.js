@@ -2,7 +2,6 @@ function decompose(endpoint) {
     // Note that we allow spaces in targets and sources but they are trimmed
     var regExp = /^(?:([\w\-]|(?:[\w\.\-/]+[\w\-])?)=)?([^\|#]+)(?:#(.*))?$/;
     var matches = endpoint.match(regExp);
-    console.log("HW2 "+matches+" endpoint: "+endpoint);
     var target;
     var error;
 

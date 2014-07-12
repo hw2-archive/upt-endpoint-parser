@@ -40,7 +40,7 @@ function compose(decEndpoint) {
 }
 
 function json2decomposed(key, value) {
-    var endpoint;
+    var endpoint="";
     var split;
     var error;
 
@@ -53,7 +53,9 @@ function json2decomposed(key, value) {
         throw error;
     }
 
-    endpoint = key + '=';
+    if (key[0]!=="%")
+        endpoint = key + '=';
+    
     split = value.split('#').map(trim);
 
     // If # was found, the source was specified

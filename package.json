@@ -1,6 +1,6 @@
 {
   "name": "upt-endpoint-parser",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Little module that helps with endpoints parsing.",
   "licenses": [
     {

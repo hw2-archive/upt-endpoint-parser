@@ -1,16 +1,16 @@
 {
-  "name": "hw2core-endpoint-parser",
+  "name": "upt-endpoint-parser",
   "version": "0.2.5",
   "description": "Little module that helps with endpoints parsing.",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/bower/endpoint-parser/blob/master/LICENSE"
+      "url": "https://github.com/hyperweb2/upt-endpoint-parser/blob/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hw2-core/endpoint-parser.git"
+    "url": "git://github.com/hyperweb2/upt-endpoint-parser.git"
   },
   "main": "index.js",
   "engines": {
@@ -25,7 +25,7 @@
     "test": "mocha -R spec"
   },
   "bugs": {
-    "url": "https://github.com/bower/endpoint-parser/issues"
+    "url": "https://github.com/hyperweb2/upt-endpoint-parser/issues"
   },
-  "homepage": "https://github.com/hw2-core/endpoint-parser"
+  "homepage": "https://github.com/hyperweb2/upt-endpoint-parser"
 }

@@ -1,4 +1,4 @@
-# endpoint-parser [![Build Status](https://secure.travis-ci.org/bower/endpoint-parser.png?branch=master)](http://travis-ci.org/bower/endpoint-parser)
+# endpoint-parser
 
 Little module that helps with endpoints parsing.
 
@@ -10,7 +10,7 @@ Little module that helps with endpoints parsing.
 Decomposes a endpoint into `name`, `source` and `target`.
 
 ```js
-var endpointParser = require('bower-endpoint-parser');
+var endpointParser = require('upt-endpoint-parser');
 
 endpointParser.decompose('jquery#~2.0.0');
 // { name: '', source: 'jquery', target: '~2.0.0' }
@@ -31,7 +31,7 @@ Inverse of `decompose()`.
 Takes a decomposed endpoint and composes it back into a string.
 
 ```js
-var endpointParser = require('bower-endpoint-parser');
+var endpointParser = require('upt-endpoint-parser');
 
 endpointParser.compose({ name: '', source: 'jquery', target: '~2.0.0' });
 // jquery#~2.0.0
@@ -48,8 +48,8 @@ endpointParser.compose({ name: 'bootstrap', source: 'http://twitter.github.io/bo
 
 ### .json2decomposed(key, value)
 
-Similar to `decompose()` but specially designed to be used when parsing `bower.json` dependencies.
-For instance, in a `bower.json` like this:
+Similar to `decompose()` but specially designed to be used when parsing `upt.json` dependencies.
+For instance, in a `upt.json` like this:
 
 ```js
 {
@@ -79,10 +79,10 @@ endpointParser.json2decomposed('bootstrap', 'http://twitter.github.io/bootstrap/
 ### .decomposed2json(decEndpoint)
 
 Inverse of `json2decomposed()`.   
-Takes a decomposed endpoint and composes it to be saved to `bower.json`.
+Takes a decomposed endpoint and composes it to be saved to `upt.json`.
 
 ```js
-var endpointParser = require('bower-endpoint-parser');
+var endpointParser = require('upt-endpoint-parser');
 
 endpointParser.decomposed2json({ name: 'jquery', source: 'jquery', target: '~2.0.0' });
 // { jquery: '~2.0.0' }

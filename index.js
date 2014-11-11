@@ -1,6 +1,6 @@
 function decompose(endpoint) {
     // Note that we allow spaces in targets and sources but they are trimmed
-    var regExp = /^(?:([\w\-]|(?:[\w\.\-/%]+[\w\-])?)=)?([^\|#]+)(?:#(.*))?$/;
+    var regExp = /^(?:([\w\-]|(?:[\w\.\-/%\+]+[\w\-])?)=)?([^\|#]+)(?:#(.*))?$/;
     var matches = endpoint.match(regExp);
     var target;
     var error;
